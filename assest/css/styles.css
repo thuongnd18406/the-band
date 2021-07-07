@@ -35,18 +35,18 @@ html {
   margin-left: -8px;
   margin-right: -8px;
 }
-.row::after{
+.row::after {
   content: "";
   display: block;
   clear: both;
 }
-.mt-8{
+.mt-8 {
   margin-top: 8px !important;
 }
-.mt-16{
+.mt-16 {
   margin-top: 16px !important;
 }
-.mt-32{
+.mt-32 {
   margin-top: 32px !important;
 }
 .col {
@@ -75,7 +75,7 @@ html {
   cursor: pointer;
   background-color: #ccc;
 }
-.pull-right{
+.pull-right {
   float: right !important;
 }
 
@@ -153,7 +153,7 @@ Có thể viết
   background-color: #ccc;
 }
 
-#header .mobile-menu-btn{
+#header .mobile-menu-btn {
   position: absolute;
   top: 0;
   right: 0;
@@ -170,11 +170,11 @@ Có thể viết
   background-color: tomato;
 }
 
-#header .mobile-menu-btn:hover{
+#header .mobile-menu-btn:hover {
   background-color: #ccc;
 }
 
-#header .mobile-menu-btn:hover .menu-icon{
+#header .mobile-menu-btn:hover .menu-icon {
   background-color: #ccc;
   color: #000;
 }
@@ -191,8 +191,7 @@ Có thể viết
   margin-top: 46px;
   padding-top: 50%;
   /* khi padding top có giá trị % thì nó sẽ bằng % CHIỀU NGANG của CHÍNH NÓ */
-  background: url("/Level 1/assest/img/slider1.jpg") top center / cover
-    no-repeat;
+  background: url("/assest/img/slider1.jpg") top center / cover no-repeat;
 }
 
 #slider .text-content {
@@ -355,7 +354,6 @@ Có thể viết
   line-height: 1.4;
 }
 
-
 /* contact */
 .contact-content {
   margin-top: 48px;
@@ -370,17 +368,17 @@ Có thể viết
   display: inline-block;
 }
 
-.contact-form{
+.contact-form {
   font-size: 15px;
 }
 
-.contact-form .form-control{
-padding: 10px;
-border: 1px solid#ccc;
-width: 100%;
-outline: none;
+.contact-form .form-control {
+  padding: 10px;
+  border: 1px solid#ccc;
+  width: 100%;
+  outline: none;
 }
-.form-submitbtn{
+.form-submitbtn {
   background-color: #000;
   color: #fff;
   border: 1px solid#000;
@@ -388,34 +386,31 @@ outline: none;
   float: right;
 }
 
-.map-section img{
+.map-section img {
   width: 100%;
 }
 
-
-
 #footer {
-padding: 64px 16px;
-text-align: center;
+  padding: 64px 16px;
+  text-align: center;
 }
-#footer .socials-list{
-font-size: 24px;
+#footer .socials-list {
+  font-size: 24px;
 }
-#footer .socials-list a{
-color: rgba(0, 0, 0, 0.6);
-text-decoration: none;
+#footer .socials-list a {
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: none;
 }
 #footer .copyright a:hover,
-#footer .socials-list a:hover{
+#footer .socials-list a:hover {
   color: rgba(0, 0, 0, 0.4);
 }
 
-#footer .copyright{
+#footer .copyright {
   margin-top: 15px;
-  
-  color: rgba(0, 0, 0, 0.6);
-}
-#footer .copyright a{
-  color: rgba(0, 0, 0, 0.6);
-}
 
+  color: rgba(0, 0, 0, 0.6);
+}
+#footer .copyright a {
+  color: rgba(0, 0, 0, 0.6);
+}
